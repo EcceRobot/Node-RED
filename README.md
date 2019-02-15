@@ -53,7 +53,9 @@ Welcome to Node-RED
 
 You can then access the Node-RED editor by pointing your browser at http://localhost:1880.
 
+### Storing flows
 
+By default, Node-RED stores your flows in the directory $HOME/.node-red
 
 ### Starting Node-RED on boot
 
