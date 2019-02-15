@@ -82,7 +82,7 @@ sudo systemctl daemon-reload
 
 Node-RED can then be started and stopped by using the commands node-red-start and node-red-stop
 
-To then enable Node-RED to run automatically at every boot and upon crashes
+To then enable Node-RED to run automatically at every **boot**Flow 1 and upon crashes
 ```
 sudo systemctl enable nodered.service
 ```
