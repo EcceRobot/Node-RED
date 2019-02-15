@@ -58,6 +58,16 @@ You can then access the Node-RED editor by pointing your browser at http://local
 By default, Node-RED stores your flows in the directory $HOME/.node-red
 
 ### Starting Node-RED on boot
+```
+[Service]
+Type=simple
+# change to the user name you wish to run Node-RED as
+User=**debian**
+Group=**debian**
+WorkingDirectory=/home/**debian**
+```
+
+
 
 The preferred way to autostart Node-RED is to use the built in systemd capability. The pre-installed version does this by using a nodered.service file and start and stop scripts. You may install these by running the following commands
 ```
