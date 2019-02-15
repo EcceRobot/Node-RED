@@ -2,7 +2,13 @@
 
 
 ## Set up Node-RED
-It requires **Node.js LTS 8.x**, so check the current version:
+
+First of all, if starting from a minimal Debian configuration, install buidl-essential
+```
+sudo apt install build-essential
+```
+
+Node-RED requires **Node.js LTS 8.x**, so check the current version:
 ```
 node -v
 ```
